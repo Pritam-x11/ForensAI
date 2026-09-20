@@ -1,0 +1,37 @@
+# ==============================
+# ForensAI Root Git Ignore
+# ==============================
+
+# Node.js
+node_modules/
+
+# Python
+venv/
+**/__pycache__/
+*.pyc
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Spring Boot local configuration
+forensaibackend/src/main/resources/application.properties
+
+# Java / Maven
+target/
+
+# Uploaded/generated files
+uploads/
+
+# Build output
+dist/
+build/
+
+# IDE
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
